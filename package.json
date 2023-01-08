@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "yarn build && npx thirdweb@latest upload .next"
+    "deploy": "yarn build && npx thirdweb@latest upload .next",
+    "export": "next export"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.0",
